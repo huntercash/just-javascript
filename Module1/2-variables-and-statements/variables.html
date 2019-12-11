@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      'use strict';
+      console.log('hey!');
+      // 3 types of variables
+      var first = 'hunter'; // variable declaration statement
+      console.log(first); // function call statement
+      let age = 300;
+      console.log(age);
+      const cool = true;
+      console.log(cool);
+
+      if (age > 10) {
+        console.log("you aren't that old");
+      }
+
+      // Var and Let can be updated
+      // const cannot be changed.. ever
+      // Only need to declare the variable once, and then you can just update it
+      first = 'cash';
+      console.log(first);
+      // Var is global
+      //
+
+      // strict mode
+      //   dog = 'biscuit';
+      //   console.log(dog);
+      // because of use strict, dog is now not defined
+      let dog = 'biscuit';
+      console.log(dog);
+
+      // Var is a function scoped variable
+      var second = 'hunter';
+      // let and const are block scoped variables {}
+      let myAge = 28;
+      const cooler = true;
+
+      //wes bos strong opinions
+      // Const by default
+      // if a variable needs to be changed, he'll change it to let
+
+      // naming conventions
+      // don't start them with a capital.. it's not wrong, but it's not convention
+      // only capital start if it's a class.
+      // can also contain _, $,
+      // lodash uses _
+      // jquery uses $..
+
+      // this is camel case
+      const iLoveFood = true;
+
+      // upper camel case
+      const ILoveFood = true;
+
+      // snake case
+      const this_is_snake_case = 'lol';
+
+      //this-is-kebab-case
+      // not allowed.
+    </script>
+  </body>
+</html>
